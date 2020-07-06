@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html-form-exercise2</title>
+</head>
+<body>
+    <h1>Black Goose Bistro | Pizza-on-Demand</h1>
+    <p>Our 12&quot;  wood-fired pizza as available for delivery.Build your custom pizza and we'll delivery it wthin an hour</p>
+    <li>
+        <label>Favorite color: <input type="text" name="favcolor"
+        value="Red" maxlength="50">
+        </label>
+    </li>
+
+        <p>
+            <label>Official contest entry: <br>
+                <em>Tell us why you love the band. Five winners will get backstage passes!</em><br>
+                <textarea name="contest_entry" rows="5" cols="50">The band is totally awesome!</textarea>
+            </label>
+        </p>
+
+        <p>Official contest entry:<br>
+            <em>Tell us why you love the band. Five winners will get backstage
+            passes!</em><br>
+            <textarea name="contest_entry" placeholder="50 words or less" rows="5" cols="50"></textarea>
+        </p>
+
+        <li>
+            <label for="form-pswd">Password:</label>
+            <input type="password" name="pswd" maxlength="12" id="form-pswd">
+        </li>
+
+        <p> <strong> Drop down list Example</strong>  <br> <br>
+            Education completed: <input type="text" list="edulevel" name="education">
+            <datalist id="edulevel">
+                <option value="High School">
+                <option value="Bachelors Degree">
+                <option value="Masters Degree">
+                <option value="PhD">
+            </datalist>
+        </p>
+
+        <p>
+            <input type="submit"> 
+            <input type="reset" value="Start over">
+        </p>
+
+</body>
+</html>
